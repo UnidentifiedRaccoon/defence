@@ -15,6 +15,7 @@ module.exports = {
     login: (username) => console.log(parseJSONTemplate(messages.login, {username})),
     listOfRules: () => console.log(messages.listOfRules),
     logout: (username) => console.log(parseJSONTemplate(messages.logout, {username})),
+    successOperation: () => console.log(messages.successOperation),
     exit: () => console.log(messages.exit),
     parseJSONTemplate
 }
