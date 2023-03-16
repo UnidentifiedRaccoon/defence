@@ -73,7 +73,7 @@ const grant = (payload) => {
     const currentRule = stringifyRule(parseInt(matrix.get(user)[index]))
     const grantRule = ruleToNumber[commandsToRules[type]]
     matrix.get(user)[index] = mergeRules(currentRule, grantRule)
-    console.log(matrix.get(user))
+    console.log(`${user}:`, matrix.get(user))
 }
 
 

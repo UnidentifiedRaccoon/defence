@@ -49,7 +49,7 @@ const test_2 = [
 
 
 // interface
-// test(cb, test_2)
+test(cb, test_2)
 start(cb)
 
 
